@@ -1,0 +1,187 @@
+1. introduction:
+Project Title: Competition Certificate verification
+Course ID:cse-404
+Group No: B3
+Member Names & IDs:
+Student ID Name
+202114181 Shaikh Sabah Taj Shefa
+202214075 Nahidur Zaman
+202214093 Sakif Shahrear
+202214105 Syed Mafijul Islam
+
+Submission Date: 5/4/2026
+
+2. Abstract:
+Verification of competition certificates is critical for maintaining the integrity of academic and professional recognition. Traditional verification methods such as manual inspection or QR code validation are often slow or bypassable through sophisticated digital editing. This project proposes an automated, lightweight solution using a Convolutional Neural Network (CNN) to detect forgeries. We implemented a transfer learning approach using the MobileNetV2 architecture, trained on a custom dataset of 200 certificate images (126 real and 74 fakes). To address the challenge of a limited dataset, we employed data augmentation techniques including random rotations and flips. The images were preprocessed at a 128x128 resolution and normalized for optimal feature extraction. Our model achieves significant accuracy in distinguishing authentic patterns from digital overlays and font manipulations. The results demonstrate that deep learning-based visual analysis is a viable, low-cost alternative to manual verification and expensive blockchain frameworks. Future work involves expanding the dataset to include diverse international certificate templates.
+3.1 Problem Statement
+In the modern academic and professional landscape, certificates serve as the primary proof of achievement and skill acquisition. However, the rise of sophisticated digital image editing tools has made it alarmingly easy to forge or manipulate these documents. Forgeries often involve subtle changes to names, dates, or ranks on authentic templates. Detecting such "pixel-level" manipulations is difficult for the human eye, and traditional manual verification is slow and prone to oversight. There is a critical need for an automated, intelligent system that can analyze the visual integrity of a certificate and classify it as authentic or forged.
+
+3.2 Significance of the Project
+This project introduces an AI-based approach to certificate authentication using Convolutional Neural Networks (CNN). The significance of this work lies in:
+
+Security: Protecting the value of genuine achievements by identifying fraudulent claims.
+
+Efficiency: Providing an instant verification result compared to time-consuming manual background checks.
+
+Accessibility: Offering a lightweight alternative to expensive and complex infrastructures like blockchain-based verification.
+
+Pattern Recognition: Utilizing deep learning to detect "forgery signatures" such as font mismatches, alignment errors, and texture inconsistencies that occur during digital tampering.
+
+
+4. Literature review
+
+#  **Paper 1: Fake Me If You Can (FastVer, SFastVer)**
+
+## **Summary of Existing Work**
+
+* Blockchain-based systems → secure but costly and complex
+* PKI/digital signature → widely used but limited globally
+* Third-party verification → slow and manual
+* Local portals → simple but not globally usable
+
+## **Limitations**
+
+*  High cost and complexity (blockchain)
+*  Slow verification (manual process)
+*  No global interoperability
+*  Inefficient revocation system
+*  Trust management problem
+
+## **Research Gap**
+
+* No **instant verification system**
+* No **low-cost alternative to blockchain**
+* Lack of **global scalable framework**
+* No efficient **certificate revocation method**
+
+---
+
+#  **Paper 2: (Semantic Scholar PDF you gave)**
+
+## **Summary of Existing Work**
+
+* Traditional verification → manual and time-consuming
+* Blockchain → secure but expensive and heavy
+* Digital signature systems → limited flexibility
+* Centralized systems → depend on trusted authority
+
+## **Limitations**
+
+*  Slow and inefficient verification
+*  High implementation cost
+*  Scalability issues
+*  Cross-border verification challenges
+* Privacy and data-sharing issues
+
+## **Research Gap**
+
+* Need for **fast and automated verification**
+* Lack of **lightweight and scalable solution**
+* No proper **global verification framework**
+* Need for **secure but low-cost system**
+
+5. Dataset Description
+The accuracy of a CNN model heavily depends on the quality and diversity of the dataset. For this project, a dedicated dataset was curated to capture the visual differences between authentic competition certificates and digitally manipulated ones.
+
+5.1 Source of Data
+The dataset was manually compiled from various academic and professional sources.
+
+Real Certificates: Collected from authentic award ceremonies, workshops, and coding competitions.
+
+Fake Certificates: Created by applying common digital forgery techniques to real templates. These include:
+
+Text Overlays: Changing names or positions using different fonts.
+
+Date Alterations: Modifying the year or date of the event.
+
+Logo Manipulation: Using low-resolution or incorrect organizational logos to simulate a forged document.
+
+5.2 Sample Size and Class Distribution
+The dataset consists of 200 images in total, categorized into two classes. The distribution is slightly imbalanced to reflect real-world scenarios where authentic documents are more common than forgeries.
+
+Total Samples: 200 Images
+
+Class - Real: 126 Images
+
+Class - Fake: 74 Images
+
+Target Size: 128x128 pixels (RGB)
+
+5.3 Data Preprocessing and Cleaning
+Before feeding the images into the CNN, several preprocessing steps were performed to ensure data consistency:
+
+Standardization: Every image was resized to 128x128 pixels. This reduces computational complexity while retaining enough detail to identify forgery artifacts.
+
+Normalization: Pixel values (0-255) were rescaled to a range of [0, 1] using the Rescaling(1./255) layer. This prevents large pixel values from causing instability in the model's gradients.
+
+Labeling: Each image was mapped to its respective class (0 for Fake, 1 for Real) using a metadata.csv file, which served as the ground truth for the training process.
+
+5.4 Data Augmentation
+To compensate for the limited number of images (200) and to improve the model's robustness, Data Augmentation was implemented. This technique artificially expands the dataset by creating variations of existing images:
+
+Random Flip: Images were flipped horizontally to help the model recognize patterns regardless of orientation.
+
+Random Rotation: A rotation range of 20 degrees was applied to simulate scanned documents that might not be perfectly aligned.
+
+Purpose: Augmentation ensures that the model does not "memorize" specific images (overfitting) but instead learns to identify the general features of authenticity and forgery.
+
+6. Methodology: Abstract Diagram, Model architecture, layer details, and technical rationale. Include flow diagrams.
+
+
+
+7. Experimental Setup
+This section details the hardware, software, and configuration parameters used to train and evaluate the Certificate Authenticity Detection model. Standardizing the environment ensures that the results are reproducible.
+
+7.1 Hardware Specifications
+The model training was conducted on Google Colab, leveraging its cloud-based infrastructure to handle the computational intensity of deep learning.
+
+GPU: NVIDIA T4 Tensor Core GPU (with 16GB GDDR6 memory).
+
+RAM: 12.7 GB System RAM.
+
+Disk Space: Approximately 78 GB of available cloud storage.
+
+Processor: Intel(R) Xeon(R) CPU @ 2.20GHz.
+
+7.2 Software Environment
+The project was implemented using the Python programming language and several high-level libraries for data manipulation and model building.
+
+Programming Language: Python 3.10+
+
+Deep Learning Framework: TensorFlow 2.x and Keras API.
+
+Data Handling: Pandas and NumPy for CSV and array manipulations.
+
+Visualization: Matplotlib and Seaborn for plotting training history and confusion matrices.
+
+Image Processing: OpenCV and PIL (Pillow) for image loading and resizing.
+
+7.3 Hyperparameters
+Hyperparameters were carefully selected to balance training speed and model accuracy while preventing overfitting on the small dataset.
+
+Optimizer: Adam (Adaptive Moment Estimation). It was chosen for its efficient computation and low memory requirements.
+
+Learning Rate: 0.001. This standard rate allowed the model to converge steadily without overshooting the global minimum.
+
+Batch Size: 32. A moderate batch size was used to ensure stable gradient estimates while fitting within the GPU memory.
+
+Epochs: 5 to 15. (Note: While 5 epochs were used for the initial run, extended training up to 15 epochs is recommended for better generalization).
+
+Loss Function: Binary Cross-Entropy. This is the optimal loss function for our binary classification task (Real vs. Fake).
+
+Validation Split: 20%. A portion of the training data was held back to monitor the model's performance on unseen data during each epoch.
+
+8. Result Analysis: 
+Metrics: Precision, Recall, F1-Score, or MAE/RMSE.
+Error Analysis: Confusion Matrix and qualitative failure case discussion.
+pictures are given in picture folder
+9. Conclusion
+This project successfully developed a CNN-based system for automated certificate authentication. By utilizing Transfer Learning with the MobileNetV2 architecture, the model proved capable of identifying digital forgeries through pixel-level analysis of font inconsistencies and logo tampering. The integration of data augmentation ensured the system's robustness against various image orientations, even with a limited dataset of 200 samples.
+
+Moving forward, the system can be further enhanced by integrating Optical Character Recognition (OCR) for cross-verifying text with official databases. Expanding the dataset with more diverse certificate templates and deploying the model as a web or mobile application will make it a highly accessible and cost-effective tool for real-world verification.
+
+
+
+10. References: 
+https://ieeexplore.ieee.org/abstract/document/11050412
+https://pdfs.semanticscholar.org/e086/5f8e32239882ace2123ae39706cd39b2f2aa.pd

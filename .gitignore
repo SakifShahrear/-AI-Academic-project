@@ -1,0 +1,12 @@
+# Virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Cloned empty subfolder & separate 3.7GB sub-repository
+-AI-Academic-project/
+AI project/

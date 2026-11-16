@@ -1,0 +1,991 @@
+{
+  "aa.jpg": {
+    "name_xy": [
+      409,
+      397
+    ],
+    "competition_xy": [
+      256,
+      542
+    ],
+    "position_xy": [
+      256,
+      596
+    ],
+    "date_xy": [
+      153,
+      126
+    ],
+    "logo_box": [
+      25,
+      18,
+      281,
+      198
+    ],
+    "font_family": "sans",
+    "font_size_name": 54,
+    "font_size_body": 31,
+    "font_size_date": 27,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Cerification from bussiness automation.png": {
+    "name_xy": [
+      269,
+      262
+    ],
+    "competition_xy": [
+      168,
+      357
+    ],
+    "position_xy": [
+      168,
+      393
+    ],
+    "date_xy": [
+      101,
+      83
+    ],
+    "logo_box": [
+      16,
+      11,
+      185,
+      131
+    ],
+    "font_family": "sans",
+    "font_size_name": 35,
+    "font_size_body": 20,
+    "font_size_date": 17,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "ICMEAS.png": {
+    "name_xy": [
+      251,
+      237
+    ],
+    "competition_xy": [
+      157,
+      324
+    ],
+    "position_xy": [
+      157,
+      356
+    ],
+    "date_xy": [
+      94,
+      75
+    ],
+    "logo_box": [
+      15,
+      10,
+      172,
+      118
+    ],
+    "font_family": "sans",
+    "font_size_name": 32,
+    "font_size_body": 18,
+    "font_size_date": 16,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "inovation.jpg": {
+    "name_xy": [
+      307,
+      563
+    ],
+    "competition_xy": [
+      192,
+      768
+    ],
+    "position_xy": [
+      192,
+      844
+    ],
+    "date_xy": [
+      115,
+      179
+    ],
+    "logo_box": [
+      19,
+      25,
+      211,
+      281
+    ],
+    "font_family": "sans",
+    "font_size_name": 76,
+    "font_size_body": 44,
+    "font_size_date": 38,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-03-16 115820.png": {
+    "name_xy": [
+      322,
+      313
+    ],
+    "competition_xy": [
+      201,
+      427
+    ],
+    "position_xy": [
+      201,
+      469
+    ],
+    "date_xy": [
+      120,
+      99
+    ],
+    "logo_box": [
+      20,
+      14,
+      221,
+      156
+    ],
+    "font_family": "sans",
+    "font_size_name": 42,
+    "font_size_body": 24,
+    "font_size_date": 21,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-03-16 115907.png": {
+    "name_xy": [
+      297,
+      315
+    ],
+    "competition_xy": [
+      185,
+      430
+    ],
+    "position_xy": [
+      185,
+      473
+    ],
+    "date_xy": [
+      111,
+      100
+    ],
+    "logo_box": [
+      18,
+      14,
+      204,
+      157
+    ],
+    "font_family": "sans",
+    "font_size_name": 43,
+    "font_size_body": 25,
+    "font_size_date": 21,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-04-02 222542.png": {
+    "name_xy": [
+      303,
+      297
+    ],
+    "competition_xy": [
+      189,
+      405
+    ],
+    "position_xy": [
+      189,
+      446
+    ],
+    "date_xy": [
+      113,
+      94
+    ],
+    "logo_box": [
+      18,
+      13,
+      208,
+      148
+    ],
+    "font_family": "sans",
+    "font_size_name": 40,
+    "font_size_body": 23,
+    "font_size_date": 20,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-04-02 222610.png": {
+    "name_xy": [
+      301,
+      271
+    ],
+    "competition_xy": [
+      188,
+      370
+    ],
+    "position_xy": [
+      188,
+      407
+    ],
+    "date_xy": [
+      113,
+      86
+    ],
+    "logo_box": [
+      18,
+      12,
+      207,
+      135
+    ],
+    "font_family": "sans",
+    "font_size_name": 37,
+    "font_size_body": 21,
+    "font_size_date": 18,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-04-02 222651.png": {
+    "name_xy": [
+      163,
+      298
+    ],
+    "competition_xy": [
+      102,
+      406
+    ],
+    "position_xy": [
+      102,
+      447
+    ],
+    "date_xy": [
+      61,
+      94
+    ],
+    "logo_box": [
+      10,
+      13,
+      112,
+      149
+    ],
+    "font_family": "sans",
+    "font_size_name": 40,
+    "font_size_body": 23,
+    "font_size_date": 20,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-04-02 222718.png": {
+    "name_xy": [
+      328,
+      317
+    ],
+    "competition_xy": [
+      205,
+      432
+    ],
+    "position_xy": [
+      205,
+      475
+    ],
+    "date_xy": [
+      123,
+      100
+    ],
+    "logo_box": [
+      20,
+      14,
+      226,
+      158
+    ],
+    "font_family": "sans",
+    "font_size_name": 43,
+    "font_size_body": 25,
+    "font_size_date": 21,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-04-02 222748.png": {
+    "name_xy": [
+      148,
+      279
+    ],
+    "competition_xy": [
+      92,
+      381
+    ],
+    "position_xy": [
+      92,
+      419
+    ],
+    "date_xy": [
+      55,
+      88
+    ],
+    "logo_box": [
+      9,
+      12,
+      102,
+      139
+    ],
+    "font_family": "sans",
+    "font_size_name": 38,
+    "font_size_body": 22,
+    "font_size_date": 19,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot 2026-04-02 222840.png": {
+    "name_xy": [
+      148,
+      283
+    ],
+    "competition_xy": [
+      92,
+      387
+    ],
+    "position_xy": [
+      92,
+      425
+    ],
+    "date_xy": [
+      55,
+      90
+    ],
+    "logo_box": [
+      9,
+      12,
+      101,
+      141
+    ],
+    "font_family": "sans",
+    "font_size_name": 38,
+    "font_size_body": 22,
+    "font_size_date": 19,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot_2026-04-02-16-42-30-194_com.linkedin.android.jpg": {
+    "name_xy": [
+      345,
+      329
+    ],
+    "competition_xy": [
+      216,
+      449
+    ],
+    "position_xy": [
+      216,
+      494
+    ],
+    "date_xy": [
+      129,
+      104
+    ],
+    "logo_box": [
+      21,
+      14,
+      237,
+      164
+    ],
+    "font_family": "sans",
+    "font_size_name": 44,
+    "font_size_body": 26,
+    "font_size_date": 22,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot_2026-04-02-16-48-39-777_com.linkedin.android.jpg": {
+    "name_xy": [
+      345,
+      335
+    ],
+    "competition_xy": [
+      216,
+      457
+    ],
+    "position_xy": [
+      216,
+      502
+    ],
+    "date_xy": [
+      129,
+      106
+    ],
+    "logo_box": [
+      21,
+      15,
+      237,
+      167
+    ],
+    "font_family": "sans",
+    "font_size_name": 45,
+    "font_size_body": 26,
+    "font_size_date": 22,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot_2026-04-02-16-48-54-051_com.linkedin.android.jpg": {
+    "name_xy": [
+      345,
+      336
+    ],
+    "competition_xy": [
+      216,
+      459
+    ],
+    "position_xy": [
+      216,
+      504
+    ],
+    "date_xy": [
+      129,
+      107
+    ],
+    "logo_box": [
+      21,
+      15,
+      237,
+      168
+    ],
+    "font_family": "sans",
+    "font_size_name": 45,
+    "font_size_body": 26,
+    "font_size_date": 22,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot_2026-04-02-16-49-02-408_com.linkedin.android.jpg": {
+    "name_xy": [
+      345,
+      357
+    ],
+    "competition_xy": [
+      216,
+      487
+    ],
+    "position_xy": [
+      216,
+      535
+    ],
+    "date_xy": [
+      129,
+      113
+    ],
+    "logo_box": [
+      21,
+      16,
+      237,
+      178
+    ],
+    "font_family": "sans",
+    "font_size_name": 48,
+    "font_size_body": 28,
+    "font_size_date": 24,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot_2026-04-02-16-49-53-530_com.linkedin.android.jpg": {
+    "name_xy": [
+      345,
+      327
+    ],
+    "competition_xy": [
+      216,
+      447
+    ],
+    "position_xy": [
+      216,
+      491
+    ],
+    "date_xy": [
+      129,
+      104
+    ],
+    "logo_box": [
+      21,
+      14,
+      237,
+      163
+    ],
+    "font_family": "sans",
+    "font_size_name": 44,
+    "font_size_body": 26,
+    "font_size_date": 22,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "Screenshot_2026-04-02-16-50-09-774_com.linkedin.android.jpg": {
+    "name_xy": [
+      345,
+      336
+    ],
+    "competition_xy": [
+      216,
+      458
+    ],
+    "position_xy": [
+      216,
+      504
+    ],
+    "date_xy": [
+      129,
+      106
+    ],
+    "logo_box": [
+      21,
+      15,
+      237,
+      168
+    ],
+    "font_family": "sans",
+    "font_size_name": 45,
+    "font_size_body": 26,
+    "font_size_date": 22,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "WhatsApp Image 2026-02-11 at 12.15.36 PM.jpeg": {
+    "name_xy": [
+      384,
+      704
+    ],
+    "competition_xy": [
+      240,
+      960
+    ],
+    "position_xy": [
+      240,
+      1056
+    ],
+    "date_xy": [
+      144,
+      224
+    ],
+    "logo_box": [
+      24,
+      32,
+      264,
+      352
+    ],
+    "font_family": "sans",
+    "font_size_name": 96,
+    "font_size_body": 56,
+    "font_size_date": 48,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "WhatsApp Image 2026-02-11 at 12.15.37 PM.jpeg": {
+    "name_xy": [
+      512,
+      528
+    ],
+    "competition_xy": [
+      320,
+      720
+    ],
+    "position_xy": [
+      320,
+      792
+    ],
+    "date_xy": [
+      192,
+      168
+    ],
+    "logo_box": [
+      32,
+      24,
+      352,
+      264
+    ],
+    "font_family": "sans",
+    "font_size_name": 72,
+    "font_size_body": 42,
+    "font_size_date": 36,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "WhatsApp Image 2026-02-11 at 12.18.16 PM.jpeg": {
+    "name_xy": [
+      384,
+      704
+    ],
+    "competition_xy": [
+      240,
+      960
+    ],
+    "position_xy": [
+      240,
+      1056
+    ],
+    "date_xy": [
+      144,
+      224
+    ],
+    "logo_box": [
+      24,
+      32,
+      264,
+      352
+    ],
+    "font_family": "sans",
+    "font_size_name": 96,
+    "font_size_body": 56,
+    "font_size_date": 48,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "WhatsApp Image 2026-04-02 at 6.28.04 PM (1).jpeg": {
+    "name_xy": [
+      334,
+      649
+    ],
+    "competition_xy": [
+      208,
+      885
+    ],
+    "position_xy": [
+      208,
+      973
+    ],
+    "date_xy": [
+      125,
+      206
+    ],
+    "logo_box": [
+      20,
+      29,
+      229,
+      324
+    ],
+    "font_family": "sans",
+    "font_size_name": 88,
+    "font_size_body": 51,
+    "font_size_date": 44,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  },
+  "WhatsApp Image 2026-04-02 at 6.28.04 PM.jpeg": {
+    "name_xy": [
+      345,
+      347
+    ],
+    "competition_xy": [
+      216,
+      473
+    ],
+    "position_xy": [
+      216,
+      520
+    ],
+    "date_xy": [
+      129,
+      110
+    ],
+    "logo_box": [
+      21,
+      15,
+      237,
+      173
+    ],
+    "font_family": "sans",
+    "font_size_name": 47,
+    "font_size_body": 27,
+    "font_size_date": 23,
+    "color_name": [
+      20,
+      20,
+      20
+    ],
+    "color_body": [
+      35,
+      35,
+      35
+    ],
+    "color_date": [
+      45,
+      45,
+      45
+    ]
+  }
+}
