@@ -6,8 +6,10 @@ __pycache__/
 
 # Secrets
 .env
+AI project/.env
 
-# Cloned empty subfolder & separate sub-repository / heavy dataset
+# Heavy archive dataset (3.7 GB) & subfolder caches
 -AI-Academic-project/
 AI project/New folder/
-AI project/
+AI project/.venv/
+AI project/__pycache__/

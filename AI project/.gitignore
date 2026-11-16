@@ -1,0 +1,11 @@
+# Large dataset folder (230k+ images, 3.7 GB)
+New folder/
+
+# Virtual environment & cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
