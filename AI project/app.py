@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+
 # Import custom modules
 from ocr_handler import (
     extract_certificate_data, 
